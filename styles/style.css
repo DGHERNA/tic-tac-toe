@@ -10,6 +10,116 @@ html {
 
 body {
   font-family: "Outfit", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 37.5rem;
+  height: 66.7rem;
+  background-color: #1A2A33;
+}
+.main-container .game-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 32.7rem;
+  height: 42.9rem;
+  row-gap: 3rem;
+}
+.main-container .game-menu .mark-options {
+  background-color: #1F3641;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem #15262e;
+  width: 32.6rem;
+  height: 19.5rem;
+  row-gap: 2rem;
+}
+.main-container .game-menu .mark-options .first-mark {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  color: #A8BFC9;
+  font-weight: 510;
+}
+.main-container .game-menu .mark-options .pick-mark {
+  background-color: #1A2A33;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  width: 28rem;
+  height: 6.5rem;
+}
+.main-container .game-menu .mark-options .pick-mark .icon-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 42.9%;
+  height: 75%;
+  border-radius: 1rem;
+}
+.main-container .game-menu .mark-options .pick-mark .icon-container:hover {
+  background-color: #A8BFC9;
+  cursor: pointer;
+}
+.main-container .game-menu .mark-options .pick-mark .icon-container:hover .icon {
+  filter: brightness(0) saturate(100%) invert(10%) sepia(6%) saturate(4628%) hue-rotate(158deg) brightness(100%) contrast(87%);
+}
+.main-container .game-menu .mark-options .pick-mark .icon {
+  width: 26%;
+  filter: brightness(0) saturate(100%) invert(94%) sepia(2%) saturate(6105%) hue-rotate(173deg) brightness(84%) contrast(84%);
+}
+.main-container .game-menu .mark-options .remember {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+  color: #8596a0;
+  font-weight: 400;
+}
+.main-container .game-menu .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+.main-container .game-menu .buttons .new-game {
+  width: 32.5rem;
+  height: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 1.5rem;
+  border: none;
+}
+.main-container .game-menu .buttons .cpu {
+  background-color: #F2B137;
+  box-shadow: 0 1rem #b88320;
+}
+.main-container .game-menu .buttons .cpu:hover {
+  background-color: #FFC860;
+  cursor: pointer;
+}
+.main-container .game-menu .buttons .player {
+  background-color: #31C3BD;
+  box-shadow: 0 1rem #1e8380;
+}
+.main-container .game-menu .buttons .player:hover {
+  background-color: #65E9E4;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,130 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37.5rem;
+    height: 66.7rem;
+    background-color: $Dark-Navy;
+
+    .game-menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 32.7rem;
+        height: 42.9rem;
+        row-gap: 3rem;
+        // border: 1px solid magenta;
+
+        .mark-options {
+            background-color: $Semi-Dark-Navy;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 1.5rem;
+            box-shadow: 0 1rem #15262e;
+            width: 32.6rem;
+            height: 19.5rem;
+            row-gap: 2rem;
+
+            .first-mark {
+                text-transform: uppercase;
+                letter-spacing: .2rem;
+                font-size: 1.5rem;
+                color: $Silver;
+                font-weight: 510;
+            }
+
+            .pick-mark {
+                background-color: $Dark-Navy;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 1rem;
+                width: 28rem;
+                height: 6.5rem;
+
+                // width: 100%;
+                // height: 100%;
+
+                .icon-container {
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 42.9%;
+                    height: 75%;
+                    border-radius: 1rem;
+
+                    &:hover {
+                        background-color: $Silver;
+                        cursor: pointer;
+
+                        .icon {
+                            filter: brightness(0) saturate(100%)
+                            invert(10%) sepia(6%) 
+                            saturate(4628%) hue-rotate(158deg) 
+                            brightness(100%) contrast(87%);
+                        }  
+                    }
+                }
+
+                .icon {
+                    width: 26%;
+                    filter: brightness(0) saturate(100%)
+                            invert(94%) sepia(2%) 
+                            saturate(6105%) hue-rotate(173deg) 
+                            brightness(84%) contrast(84%);                          
+                }
+            }
+
+
+            .remember {
+                text-transform: uppercase;
+                letter-spacing: .1rem;
+                font-size: 1.4rem;
+                color: #8596a0;
+                font-weight: 400;
+            }
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 2.5rem;
+
+            .new-game {
+                width: 32.5rem;
+                height: 5rem;
+                text-transform: uppercase;
+                letter-spacing: .1rem;
+                font-size: 1.6rem;
+                font-weight: 600;
+                border-radius: 1.5rem;
+                border: none;
+            }
+
+            .cpu {
+                background-color: $Light-Yellow;
+                box-shadow: 0 1rem #b88320;
+
+                &:hover {
+                    background-color: $Light-Yellow-Hover;
+                    cursor: pointer;
+                }
+            }
+
+            .player {
+                background-color: $Light-Blue;
+                box-shadow: 0 1rem #1e8380;
+
+                &:hover {
+                    background-color: $Light-Blue-Hover;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
