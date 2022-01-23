@@ -9,6 +9,14 @@ $Light-Yellow: #F2B137;
 $Light-Yellow-Hover: #FFC860; 
 
 
+//center styles
+
+$Center: (
+justify-content: center,
+align-items: center,  
+);
+
+
 
 @import "general";
 @import "solo";

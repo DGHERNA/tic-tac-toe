@@ -35,7 +35,7 @@ body {
   height: 42.9rem;
   row-gap: 3rem;
 }
-.main-container .game-menu .mark-options {
+.main-container .game-menu-options {
   background-color: #1F3641;
   display: flex;
   justify-content: center;
@@ -47,14 +47,14 @@ body {
   height: 19.5rem;
   row-gap: 2rem;
 }
-.main-container .game-menu .mark-options .first-mark {
+.main-container .game-menu-options .first-mark {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 1.5rem;
   color: #A8BFC9;
   font-weight: 510;
 }
-.main-container .game-menu .mark-options .pick-mark {
+.main-container .game-menu-options .pick-mark {
   background-color: #1A2A33;
   display: flex;
   justify-content: space-around;
@@ -63,7 +63,7 @@ body {
   width: 28rem;
   height: 6.5rem;
 }
-.main-container .game-menu .mark-options .pick-mark .icon-container {
+.main-container .game-menu-options .pick-mark .icon-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -72,18 +72,18 @@ body {
   border-radius: 1rem;
   transition: all 700ms ease-in-out;
 }
-.main-container .game-menu .mark-options .pick-mark .icon-container:hover {
+.main-container .game-menu-options .pick-mark .icon-container:hover {
   background-color: #A8BFC9;
   cursor: pointer;
 }
-.main-container .game-menu .mark-options .pick-mark .icon-container:hover .icon {
+.main-container .game-menu-options .pick-mark .icon-container:hover .icon {
   filter: brightness(0) saturate(100%) invert(10%) sepia(6%) saturate(4628%) hue-rotate(158deg) brightness(100%) contrast(87%);
 }
-.main-container .game-menu .mark-options .pick-mark .icon {
+.main-container .game-menu-options .pick-mark .icon {
   width: 26%;
   filter: brightness(0) saturate(100%) invert(94%) sepia(2%) saturate(6105%) hue-rotate(173deg) brightness(84%) contrast(84%);
 }
-.main-container .game-menu .mark-options .remember {
+.main-container .game-menu-options .remember {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   font-size: 1.4rem;

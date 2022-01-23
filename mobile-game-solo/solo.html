@@ -9,25 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-    <link rel="stylesheet" href="./styles/solo.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Tic Tac Toe Solo</title>
 </head>
 <body>
   <!-- Game board start -->
+    <main class="container">
 
-    <header class="header">
-        <div class="logo"> <img src="../assets/logo.svg" alt="Logo image"> </div>
-        <div class="turn-mark">
-             <!-- x/o icon --> 
-            <div class="mark">
-                <img src="../assets/icon-x.svg" alt="Mark icon">
+        <div class="game-container">
+
+            <div class="head-options">
+                <div class="logo"> <img src="../assets/logo.svg" alt="Logo image"> </div>
+                <div class="turn-mark">
+                     <!-- x/o icon --> 
+                    <div class="mark">
+                        <img src="../assets/icon-x.svg" alt="Mark icon">
+                    </div>
+                    <p>turn</p>
+                </div>
+        
+                <div class="restart-btn">
+                    <img src="../assets/icon-restart.svg" alt="Restart icon">
+                </div>
             </div>
-            <p>turn</p>
+            
         </div>
 
-        <div class="restart-btn">
-            <img src="../assets/icon-restart.svg" alt="Restart icon">
-        </div>
-    </header>
+
+    </main>
+
 </body>
 </html>

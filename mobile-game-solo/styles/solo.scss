@@ -1,11 +1,67 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    border: 1px solid magenta;
-
-    .turn-mark {
-        width: 10rem;
+.container {
+        width: 37.5rem;
+        height: 66.7rem;
+        background-color: $Dark-Navy;
         display: flex;
+        justify-content: center;   
+
+
+    .game-container {
+        width: 32.8rem;
+        height: 51.6rem;
+        margin: 2rem 2.4rem 0 2.3rem;
+        border: 1px solid magenta;
+
+        .head-options {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 32.8rem;
+            height: 4.5rem;
+            // border: 1px solid magenta;
+        
+            .turn-mark {
+                width: 9.6rem;
+                height: 3.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: $Semi-Dark-Navy;
+                border-radius: .5rem;
+                box-shadow: 0 .5rem #132026;
+        
+                .mark {
+        
+                    img {
+                        width: 1.6rem;
+                    }
+                }
+        
+                p {
+                    font-size: 1.4rem;
+                    letter-spacing: .1rem;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    color: $Silver;
+                }
+            }
+        
+            .restart-btn {
+                background-color: $Silver;
+                width: 4rem;
+                height: 3.5rem;
+                border-radius: .5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 .5rem #737f83;
+        
+                img {
+                    width: 1.7rem;
+                }
+            }
+        }
     }
+    
 }
+

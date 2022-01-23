@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 37.5rem;
+  height: 66.7rem;
+  background-color: #1A2A33;
+  display: flex;
+  justify-content: center;
+}
+.container .game-container {
+  width: 32.8rem;
+  height: 51.6rem;
+  margin: 2rem 2.4rem 0 2.3rem;
+  border: 1px solid magenta;
+}
+.container .game-container .head-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 32.8rem;
+  height: 4.5rem;
+}
+.container .game-container .head-options .turn-mark {
+  width: 9.6rem;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1F3641;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem #132026;
+}
+.container .game-container .head-options .turn-mark .mark img {
+  width: 1.6rem;
+}
+.container .game-container .head-options .turn-mark p {
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #A8BFC9;
+}
+.container .game-container .head-options .restart-btn {
+  background-color: #A8BFC9;
+  width: 4rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.5rem #737f83;
+}
+.container .game-container .head-options .restart-btn img {
+  width: 1.7rem;
+}
+
+/*# sourceMappingURL=style.css.map */

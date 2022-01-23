@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["mobile-game-solo/solo.scss"],"names":[],"mappings":"AAAA;EACI","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["general.scss","solo.scss","style.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;AAGJ;EACI;;;AAGJ;EACI;EACA;EACA;EACA;;;ACdJ;EACQ;EACA;EACA,kBCFI;EDGJ;EACA;;AAGJ;EACI;EACA;EACA;EACA;;AAEA;EACI;EACA;EACA;EACA;EACA;;AAGA;EACI;EACA;EACA;EACA;EACA;EACA,kBC1BC;ED2BD;EACA;;AAII;EACI;;AAIR;EACI;EACA;EACA;EACA;EACA,OCzCX;;AD6CG;EACI,kBC9CP;ED+CO;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI","file":"style.css"}
