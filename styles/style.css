@@ -15,6 +15,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: black;
 }
 
 .main-container {
@@ -41,7 +42,7 @@ body {
   align-items: center;
   flex-direction: column;
   border-radius: 1.5rem;
-  box-shadow: 0 1rem #15262e;
+  box-shadow: 0 1rem #0e1d24;
   width: 32.6rem;
   height: 19.5rem;
   row-gap: 2rem;
@@ -69,6 +70,7 @@ body {
   width: 42.9%;
   height: 75%;
   border-radius: 1rem;
+  transition: all 700ms ease-in-out;
 }
 .main-container .game-menu .mark-options .pick-mark .icon-container:hover {
   background-color: #A8BFC9;
@@ -104,6 +106,10 @@ body {
   font-weight: 600;
   border-radius: 1.5rem;
   border: none;
+}
+.main-container .game-menu .buttons .new-game a {
+  text-decoration: none;
+  color: black;
 }
 .main-container .game-menu .buttons .cpu {
   background-color: #F2B137;
