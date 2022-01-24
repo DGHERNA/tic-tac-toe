@@ -3,14 +3,14 @@
         height: 66.7rem;
         background-color: $Dark-Navy;
         display: flex;
-        justify-content: center;   
+        justify-content: center; 
 
 
     .game-container {
         width: 32.8rem;
         height: 51.6rem;
         margin: 2rem 2.4rem 0 2.3rem;
-        border: 1px solid magenta;
+        // border: 1px solid magenta;
 
         .head-options {
             display: flex;
@@ -29,11 +29,16 @@
                 background-color: $Semi-Dark-Navy;
                 border-radius: .5rem;
                 box-shadow: 0 .5rem #132026;
+                cursor: pointer;
         
                 .mark {
         
                     img {
                         width: 1.6rem;
+                        filter: brightness(0) saturate(100%)
+                        invert(80%) sepia(10%) 
+                        saturate(464%) hue-rotate(153deg) 
+                        brightness(92%) contrast(91%);
                     }
                 }
         
@@ -55,10 +60,74 @@
                 justify-content: center;
                 align-items: center;
                 box-shadow: 0 .5rem #737f83;
+                cursor: pointer;
         
                 img {
                     width: 1.7rem;
                 }
+            }
+        }
+
+        .game-board {
+            width: 32.8rem;
+            height: 32.8rem;
+            display: grid;
+            grid-template-columns: repeat(3, 9.6rem);
+            gap: 2rem;
+            margin-top: 6.4rem;
+            // border: 1px solid greenyellow;
+
+            .game-mark {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // width: 9.6rem;
+                height: 9.5rem;
+                box-shadow: 0 .7rem #132026;
+                border-radius: 1.5rem;
+                background-color: $Semi-Dark-Navy;
+                cursor: pointer;
+
+                .random-mark {
+                   width: 4rem; 
+                }
+            }
+
+        }
+
+        .info-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2rem;
+
+            .match-info {
+                width: 9.6rem;
+                height: 6.4rem;
+                border-radius: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                .info{
+                    text-transform: uppercase;
+                    font-size: 1.3rem;
+                    letter-spacing: .1rem;
+                }
+                .results{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    letter-spacing: .1rem;
+                }
+            }
+            .your-score{
+                background-color: $Light-Blue;
+            }
+            .ties-score {
+                background-color: $Silver;
+            }
+            .cpu-score{
+                background-color: $Light-Yellow;
             }
         }
     }
