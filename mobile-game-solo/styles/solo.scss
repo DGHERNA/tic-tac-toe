@@ -95,6 +95,26 @@
                 }
             }
 
+            .tic-tac-toe {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // width: 9.6rem;
+                height: 9.5rem;
+                box-shadow: 0 .7rem #1d8885;
+                border-radius: 1.5rem;
+                background-color: $Light-Blue;
+
+                .aligned {
+                    width: 4rem;
+                    filter: brightness(0) saturate(100%)
+                    invert(10%) sepia(21%) 
+                    saturate(1257%) hue-rotate(157deg) 
+                    brightness(96%) contrast(87%);
+
+                }
+            }
+
         }
 
         .info-container {
@@ -135,6 +155,8 @@
     
 
     }
+
+    // you lost design
 
     .pop-up-you-lost {
        width: 100%;
@@ -229,6 +251,102 @@
            
        }
     }
+
+    // pop up you won design
+
+    .pop-up-you-won {
+        width: 100%;
+        height: 100%;
+        background-color: $Light-black; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+ 
+        .you-won-container{
+            width: 37.5rem;
+            height: 22.8rem;
+            background-color: $Semi-Dark-Navy;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+ 
+            .pop-up-info {
+             // border: 1px solid magenta;
+             width: 28rem;
+             height: 14rem;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             gap: 1.5rem;
+ 
+             .default-font {
+                 font-size: 1.4rem;
+                 letter-spacing: .1rem;
+                 font-weight: 600;
+                 text-transform: uppercase;
+                 color: $Silver;
+             }
+ 
+             .take-round {
+                 width: 28;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+  
+                 .img-mark-turn {
+                     width: 3rem;
+                     margin-right: 1.4rem;
+                    img {
+                      width: 3rem;
+                    } 
+                 }
+ 
+                 p {
+                     font-size: 2.4rem;
+                     font-weight: 600;
+                     letter-spacing: .1rem;
+                     text-transform: uppercase;
+                     color: $Light-Blue;
+                 }
+             }
+ 
+             .btns {
+                 width: 23.8rem;
+                 height: 5.2rem;
+                 display: flex;
+                 justify-content: space-between;
+                 
+                 .btn{
+                     height: 5.2rem;
+                     border: none;
+                     text-transform: uppercase;
+                     font-weight: 600;
+                     letter-spacing: .1rem;
+                     border-radius: 1rem;
+                 }
+ 
+                 .quit {
+                    width: 7.6rem;
+                    background-color: $Silver;
+                    box-shadow: 0 .5rem #737f83;
+                 }
+                 .next-round {
+                     width: 14.6rem;
+                     background-color: $Light-Yellow;
+                     box-shadow: 0 .5rem #b88320;
+                 }
+             }
+ 
+ 
+            }
+ 
+            
+        }
+     }
     
 }
 
