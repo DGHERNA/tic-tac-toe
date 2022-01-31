@@ -347,6 +347,90 @@
             
         }
      }
+
+
+     //Restart game pop-up
+
+     .pop-up-restart {
+        width: 100%;
+        height: 100%;
+        background-color: $Light-black; 
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+ 
+        .restart-container{
+            width: 37.5rem;
+            height: 22.8rem;
+            background-color: $Semi-Dark-Navy;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+ 
+            .pop-up-info {
+             // border: 1px solid magenta;
+             width: 28rem;
+             height: 14rem;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             gap: 1.5rem;
+ 
+ 
+             .restart-game {
+                 width: 28;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+
+ 
+                 p {
+                     font-size: 2.4rem;
+                     font-weight: 600;
+                     letter-spacing: .1rem;
+                     text-transform: uppercase;
+                     color: $Silver;
+                 }
+             }
+ 
+             .btns {
+                 width: 37.5rem;
+                 height: 5.2rem;
+                 display: flex;
+                 justify-content: space-evenly;
+                 
+                 .btn{
+                     height: 5.2rem;
+                     border: none;
+                     text-transform: uppercase;
+                     font-size: 1.7rem;
+                     font-weight: 600;
+                     letter-spacing: .1rem;
+                     border-radius: 1rem;
+                 }
+ 
+                 .cancel-btn {
+                    width: 13.9rem;
+                    background-color: $Silver;
+                    box-shadow: 0 .5rem #737f83;
+                 }
+                 .restart-btn {
+                     width: 15.1rem;
+                     background-color: $Light-Yellow;
+                     box-shadow: 0 .5rem #b88320;
+                 }
+             }
+ 
+ 
+            }
+ 
+            
+        }
+     }
     
 }
 

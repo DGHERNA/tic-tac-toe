@@ -298,5 +298,71 @@ body {
   background-color: #F2B137;
   box-shadow: 0 0.5rem #b88320;
 }
+.container .pop-up-restart {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.container .pop-up-restart .restart-container {
+  width: 37.5rem;
+  height: 22.8rem;
+  background-color: #1F3641;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .pop-up-restart .restart-container .pop-up-info {
+  width: 28rem;
+  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.container .pop-up-restart .restart-container .pop-up-info .restart-game {
+  width: 28;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .pop-up-restart .restart-container .pop-up-info .restart-game p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #A8BFC9;
+}
+.container .pop-up-restart .restart-container .pop-up-info .btns {
+  width: 37.5rem;
+  height: 5.2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .pop-up-restart .restart-container .pop-up-info .btns .btn {
+  height: 5.2rem;
+  border: none;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  border-radius: 1rem;
+}
+.container .pop-up-restart .restart-container .pop-up-info .btns .cancel-btn {
+  width: 13.9rem;
+  background-color: #A8BFC9;
+  box-shadow: 0 0.5rem #737f83;
+}
+.container .pop-up-restart .restart-container .pop-up-info .btns .restart-btn {
+  width: 15.1rem;
+  background-color: #F2B137;
+  box-shadow: 0 0.5rem #b88320;
+}
 
 /*# sourceMappingURL=style.css.map */
